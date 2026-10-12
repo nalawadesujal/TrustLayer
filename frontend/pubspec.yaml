@@ -1,0 +1,36 @@
+name: frontend
+description: "TrustLayer - Multi Model AI Detector Flutter Frontend"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.2
+
+  # Networking & Storage
+  http: ^1.2.1
+  flutter_secure_storage: ^9.0.0
+
+  # File / Camera pickers
+  file_picker: ^8.0.0
+  image_picker: ^1.0.7
+
+  # UI / Visual Polish
+  google_fonts: ^6.2.1
+  intl: ^0.19.0
+  flutter_spinkit: 5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
